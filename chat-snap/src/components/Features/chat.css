@@ -1,0 +1,16 @@
+/* Chat.css */
+.chat-window {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .my-message {
+    text-align: right;
+  }
+  
+  .other-message {
+    text-align: left;
+  }
+  

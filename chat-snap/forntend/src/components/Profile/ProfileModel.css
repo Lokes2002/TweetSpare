@@ -1,0 +1,9 @@
+/* Global CSS file ya App.css me daalna */
+.hideScrollBar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}
