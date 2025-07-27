@@ -1,0 +1,63 @@
+.event-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between boxes */
+}
+
+.event-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Width of each box */
+    text-align: center;
+    transition: transform 0.2s; /* For hover effect */
+}
+
+.event-card.active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Highlight active event */
+}
+
+.event-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.event-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.event-controls button:hover {
+    background-color: #0056b3;
+}
+
+.upcoming-events {
+    margin-top: 20px;
+}
+
+.upcoming-events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between boxes */
+}
+
+.upcoming-event-card {
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px; /* Width of each box */
+    text-align: center;
+}

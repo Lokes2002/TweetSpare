@@ -1,0 +1,52 @@
+.notification-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.notification-box {
+    background-color: #007bff; /* Blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.notification-card {
+    background-color: #f0f0f0; /* Light gray for notification card */
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px; /* Space between notifications */
+    position: relative; /* To position 'Open' button */
+}
+
+.notification-message {
+    margin: 0;
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.notification-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Space above the footer */
+}
+
+.notification-time {
+    font-size: 12px;
+    color: #888; /* Gray color for time */
+}
+
+.open-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.open-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
