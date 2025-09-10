@@ -1,6 +1,8 @@
 # TweetSpare – Social Media Platform
 
-**TweetSpare** is a full-stack social media platform inspired by Twitter. It allows users to post text, images, and videos, interact with other users through likes, dislikes, and comments, manage profiles, follow/unfollow other users, and communicate via chat and direct messages. The project demonstrates full-stack development capabilities, including frontend design, backend API development, database management, state management with Redux, and secure authentication with JWT.
+TweetSpare is a full-stack social media platform inspired by Twitter. It allows users to post text, images, and videos, interact via likes, dislikes, and comments, manage profiles, follow/unfollow users, and communicate through chat and direct messages. Hashtags make content searchable, and post views provide engagement insights.
+
+The frontend is built with React, using functional components, hooks, and Redux for real-time state management. The backend uses Spring Boot with RESTful APIs to manage users, posts, comments, likes, messages, and profiles, secured with JWT authentication. The database is implemented with MySQL and JPA/Hibernate for efficient data management.
 
 ---
 
@@ -163,4 +165,5 @@ The system is modular, allowing each feature to function independently while int
 TweetSpare is a comprehensive full-stack social media project that showcases **frontend, backend, database, and full-stack integration skills**. Building it solo allowed me to gain deep understanding of modern web development, problem-solving, and project management.
 
 ---
+
 
